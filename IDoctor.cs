@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace InterfaceDemo
 {
-    internal interface IEmployee
+    public interface IDoctor
     {
-        void CalculateSalary();
-        void CalculateBonus();
-
+        void GetData();
+        void PutData();
     }
-} 
- 
+}
